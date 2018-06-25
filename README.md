@@ -4,7 +4,7 @@ This year we will focus on the Span-Extraction Machine Reading Comprehension, wh
 
 ## Introduction
 
-An implementation of [QANet](https://arxiv.org/pdf/1804.09541.pdf) with PyTorch, using SQuAD 1.1. 
+An implementation of [QANet](https://arxiv.org/pdf/1804.09541.pdf) with PyTorch, using CMRC2018 dataset. 
 
 Any contributions are welcome!
 
