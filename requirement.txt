@@ -7,3 +7,4 @@ tqdm >= 4.23.4
 absl-py
 ujson >= 1.35
 tensorboard
+pyltp >= 0.2.1
