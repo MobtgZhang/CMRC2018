@@ -5,7 +5,7 @@ This year we will focus on the Span-Extraction Machine Reading Comprehension, wh
 ## Introduction
 
 An implementation of [QANet](https://arxiv.org/pdf/1804.09541.pdf) with PyTorch, using CMRC2018 dataset. 
-
+And the chinese word2vec model follows the [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors)
 Any contributions are welcome!
 
 ## Usage
