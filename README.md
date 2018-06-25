@@ -37,7 +37,7 @@ config.py: configurations.
 - [x] Reduce memory usage
 - [ ] Performance analysis
 - [ ] Reach state-of-art scroes of the original paper
-- [ ] Test on SQuAD 2.0
+- [ ] Test on CMRC2018 dataset
 - [ ] Ablation analysis
 
 ## Contributors
