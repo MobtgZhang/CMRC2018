@@ -1,6 +1,6 @@
-# CMRC2018
-
-# QANet-pytorch
+## CMRC2018
+## Task Discription
+This year we will focus on the Span-Extraction Machine Reading Comprehension, which is a further extension of the blank-reading reading comprehension task. Although reading comprehension data sets such as Stanford SQuAD and NewsQA are used in English reading comprehension studies, relevant Chinese resources are still blank. The current Chinese machine reading comprehension evaluation will open the first chapter of the Chinese text segment extracted reading comprehension data set, the contestants need to model the text, problems, and extract consecutive pieces from the text as the answer. This evaluation still takes the training set, development set open, test set hidden form to ensure the fairness of the evaluation.
 
 ## Introduction
 
