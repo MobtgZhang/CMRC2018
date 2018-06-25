@@ -5,7 +5,7 @@ This year we will focus on the Span-Extraction Machine Reading Comprehension, wh
 ## Introduction
 
 An implementation of [QANet](https://arxiv.org/pdf/1804.09541.pdf) with PyTorch, using CMRC2018 dataset. 
-And the chinese word2vec model follows the [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors)
+And the chinese word2vec model follows the [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors).
 Any contributions are welcome!
 
 ## Usage
@@ -13,9 +13,11 @@ Any contributions are welcome!
 1. Install pytorch 0.4 for Python 3.6+
 2. Run `pip install -r requirements.txt` to install python dependencies.
 3. Run `download.sh` to download the dataset.
-4. Run `python main.py --mode data` to build tensors from the raw dataset.
-5. Run `python main.py --mode train` to train the model. After training, `log/model.pt` will be generated.
-6. Run `python main.py --mode test` to test an pretrained model. Default model file is `log/model.pt`
+4. Download the model of pyltp and the chinese word2vec from baiducloud,following the instructions of 
+    [pyltp](https://github.com/HIT-SCIR/pyltp),[word2vec for chinese](https://github.com/Embedding/Chinese-Word-Vectors)
+5. Run `python main.py --mode data` to build tensors from the raw dataset.
+6. Run `python main.py --mode train` to train the model. After training, `log/model.pt` will be generated.
+7. Run `python main.py --mode test` to test an pretrained model. Default model file is `log/model.pt`
 
 ## Structure
 preproc.py: downloads dataset and builds input tensors.
