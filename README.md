@@ -18,7 +18,7 @@ Any contributions are welcome!
 5. Run `python main.py --mode data` to build tensors from the raw dataset.
 6. Run `python main.py --mode train` to train the model. After training, `log/model.pt` will be generated.
 7. Run `python main.py --mode test` to test an pretrained model. Default model file is `log/model.pt`
-## hardware Usage
+## Hardware Usage
 The task need pytorch GPU to train the model 
 ## Structure
 preproc.py: downloads dataset and builds input tensors.
