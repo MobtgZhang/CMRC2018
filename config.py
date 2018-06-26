@@ -7,13 +7,12 @@ import torch.backends.cudnn as cudnn
 The content of this file is mostly copied from https://github.com/HKUST-KnowComp/R-Net/blob/master/config.py
 '''
 
-LTP_DATA_DIR = "/media/asus/新加卷1/BaiduNetdiskDownload/ltp_data_v3.4.0"
-
 home = os.path.expanduser(".")
 train_file = os.path.join(home, "data", "squad", "cmrc2018_train.json")
 dev_file = os.path.join(home, "data", "squad", "cmrc2018_dev.json")
 test_file = os.path.join(home, "data", "squad", "cmrc2018_trial.json")
 glove_word_file = os.path.join(home, "data", "glove", "sgns.target.word-ngram.1-2.dynwin5.thr10.neg5.dim300.iter5")
+LTP_DATA_DIR = os.path.join(home,"data","ltp")
 
 target_dir = "data"
 event_dir = "log"
