@@ -262,7 +262,6 @@ def preproc(config):
     train_examples, train_eval = process_file(config.train_file, "train", word_counter, char_counter)
     dev_examples, dev_eval = process_file(config.dev_file, "dev", word_counter, char_counter)
     test_examples, test_eval = process_file(config.test_file, "test", word_counter, char_counter)
-    print(word_counter)
     word_emb_file = config.fasttext_file if config.fasttext else config.glove_word_file
     char_emb_file = config.glove_char_file if config.pretrained_char else None
     char_emb_size = config.glove_char_size if config.pretrained_char else None
